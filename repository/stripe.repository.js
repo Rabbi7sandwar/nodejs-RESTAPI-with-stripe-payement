@@ -1,6 +1,6 @@
 const { connect } = require('../config/db.config');
 const logger = require('../logger/api.logger');
-const Stripe_Key = "sk_test_51N1jiLSF8TM224ZiOLcoBDHyi9YMjFzfq4fEASdfU8cKYMnYbagwlZo46cOkhS1AHKS3qLiWmeAtA7Hkif6Vos75002zkFDsfb";
+const Stripe_Key = "stripe_key";
 const stripe = require("stripe")(Stripe_Key);
 
 class StripeRepository {
